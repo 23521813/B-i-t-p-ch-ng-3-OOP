@@ -25,8 +25,8 @@ bool minimize(X& x, const Y y) {
 }
 
 struct Duong_tron {
-    int x, y, r;
-    Duong_tron(int x = 0, int y = 0, int r = 0): x(x), y(y), r(r) {}
+    double x, y, r;
+    Duong_tron(double x = 0, double y = 0, double r = 0): x(x), y(y), r(r) {}
 };
 
 const double pi = acos(-1);
